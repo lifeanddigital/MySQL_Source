@@ -1,0 +1,28 @@
+/*テーブル作成　 */	
+CREATE TABLE [IF NOT EXISTS] db_name.tbl_name	
+    (col_name data_type, ...)	
+　　CHARACTER SET charset_name COLLATE collation_name	
+	
+IF NOT EXISTS	
+　同じテーブル名の作成を行わない	
+col_name	
+　フィールド名	
+data_type	
+　整数型(TINYINT, SMALLINT, MEDIUMINT, INT, BIGINT)	
+　浮動小数点数型(FLOAT, DOUBLE)	
+　固定小数点数型(DECIMAL, NUMERIC)	
+　BIT型	
+　日付型と時刻型(DATE, TIME, DATETIME, TIMESTAMP, YEAR)	
+　CHAR型とVARCHAR型	
+　BINARY型　固定長バイナリバイト文字列	
+　VARBINARY型　可変長バイナリバイト文字列	
+　BLOB型　大量のバイナリ（画像等）	
+　TEXT型　大量のテキスト	
+　ENUM型	
+　SET型	
+	
+/* テーブル削除 */	
+DROP TABLE [テーブル名] ;	
+	
+/* テーブル一覧表示 */	
+SHOW TABLES ;	
